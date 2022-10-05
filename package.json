@@ -1,0 +1,23 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass src/sass/main.scss src/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwasi/meet-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwasi/meet-landing-page/issues"
+  },
+  "homepage": "https://github.com/cwasi/meet-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

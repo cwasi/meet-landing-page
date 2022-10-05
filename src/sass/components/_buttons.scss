@@ -1,0 +1,24 @@
+.btn {
+  padding: 1.5rem 2.75rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: $color-white;
+  border: none;
+  border-radius: 50rem;
+  transition: background-color 300ms ease-in-out;
+
+  &__primary {
+    background-color: $color-primary;
+    &:hover {
+      background-color: $color-primary-light;
+    }
+  }
+
+  &__secondary {
+    background-color: $color-secondary;
+    &:hover {
+      background-color: $color-secondary-light;
+    }
+  }
+}

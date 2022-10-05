@@ -1,0 +1,50 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+// HEADINGS
+
+.heading-1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+
+  &--black {
+    color: $color-tertiary;
+  }
+  &--white {
+    color: $color-white;
+  }
+}
+
+.heading-2 {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  &--black {
+    color: $color-tertiary;
+  }
+  &--white {
+    color: $color-white;
+  }
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  &--gray {
+    color: $color-quaternary;
+  }
+  &--white {
+    color: $color-white;
+  }
+}
+
+.small-text {
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  letter-spacing: 0.2rem;
+  color: $color-primary;
+}
