@@ -1,0 +1,14 @@
+.logo {
+  &__box {
+    height: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    height: 100%;
+    object-fit: cover;
+  }
+}

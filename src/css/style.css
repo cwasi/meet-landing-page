@@ -50,6 +50,16 @@ body {
   letter-spacing: 0.2rem;
   color: #4d96a9; }
 
+.logo__box {
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.logo__icon {
+  height: 100%;
+  object-fit: cover; }
+
 .btn {
   padding: 1.5rem 2.75rem;
   font-family: "Red Hat Display", sans-serif;
@@ -67,6 +77,13 @@ body {
     background-color: #855fb1; }
     .btn__secondary:hover {
       background-color: #d9b8ff; }
+
+.header {
+  margin-top: 5rem;
+  margin-bottom: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 main {
   min-height: 100%;
