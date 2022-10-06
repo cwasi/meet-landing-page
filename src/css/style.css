@@ -13,6 +13,29 @@ body {
 html {
   font-size: 110.5%; }
 
+.padding-lr-3 {
+  padding: 0 3rem; }
+
+.position-top {
+  align-self: start; }
+
+.position-down {
+  align-self: end; }
+
+.flex-center-around-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.text-center {
+  text-align: center; }
+
+.text-color-primary-light {
+  color: #8fe3f9; }
+
+.width-30 {
+  width: 25.8rem; }
+
 body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.6rem;
@@ -90,3 +113,21 @@ main {
   display: grid;
   align-items: center;
   justify-items: center; }
+
+.hero {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .hero__info {
+    width: 33.8rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+  .hero__profile__box {
+    height: 100%;
+    display: flex; }
+  .hero__profile__photo {
+    height: 100%; }

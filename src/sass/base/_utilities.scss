@@ -1,0 +1,32 @@
+// padding
+.padding-lr-3 {
+  padding: 0 3rem;
+}
+
+// positioning
+.position-top {
+  align-self: start;
+}
+.position-down {
+  align-self: end;
+}
+
+.flex-center-around-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+// text
+.text-center {
+  text-align: center;
+}
+.text-color-primary-light {
+  color: $color-primary-light;
+}
+
+// Width
+
+.width-30 {
+  width: 25.8rem;
+}

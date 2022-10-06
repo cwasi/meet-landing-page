@@ -1,0 +1,25 @@
+.hero {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info {
+    width: 33.8rem;
+    height: 19rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__profile__box {
+    height: 100%;
+    display: flex;
+  }
+
+  &__profile__photo {
+    height: 100%;
+  }
+}
