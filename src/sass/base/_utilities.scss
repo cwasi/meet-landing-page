@@ -11,10 +11,10 @@
   align-self: end;
 }
 
-.flex-center-around-between {
+.flex-center-space-between {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 // text
@@ -27,6 +27,6 @@
 
 // Width
 
-.width-30 {
-  width: 25.8rem;
+.btn-box-width {
+  width: 21.8rem;
 }
