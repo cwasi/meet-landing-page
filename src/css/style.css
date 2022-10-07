@@ -124,6 +124,19 @@ body {
     border-radius: 50%;
     letter-spacing: normal; }
 
+.gallery {
+  width: 69.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 15.9rem);
+  justify-content: space-between; }
+  .gallery__image-box {
+    height: 100%; }
+  .gallery__image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover; }
+
 .header {
   margin-top: 5rem;
   margin-bottom: 3.8rem;
