@@ -102,6 +102,28 @@ body {
     .btn__secondary:hover {
       background-color: #b18bdd; }
 
+.divider::before {
+  content: "";
+  height: 5.3rem;
+  width: 0.1px;
+  display: block;
+  background-color: rgba(135, 135, 157, 0.2); }
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .divider__number {
+    width: 3.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    color: #87879d;
+    border: 0.1px solid rgba(135, 135, 157, 0.2);
+    border-radius: 50%;
+    letter-spacing: normal; }
+
 .header {
   margin-top: 5rem;
   margin-bottom: 3.8rem;
