@@ -84,7 +84,7 @@ body {
   object-fit: cover; }
 
 .btn {
-  padding: 1.5rem 2.75rem;
+  padding: 1rem 2.5rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
   font-size: 1rem;
@@ -95,11 +95,12 @@ body {
   .btn__primary {
     background-color: #4d96a9; }
     .btn__primary:hover {
-      background-color: #8fe3f9; }
+      background-color: #71c0d4; }
   .btn__secondary {
+    padding: 1rem 1.8rem;
     background-color: #855fb1; }
     .btn__secondary:hover {
-      background-color: #d9b8ff; }
+      background-color: #b18bdd; }
 
 .header {
   margin-top: 5rem;
