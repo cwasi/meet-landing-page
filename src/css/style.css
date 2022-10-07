@@ -16,6 +16,9 @@ html {
 .padding-lr-3 {
   padding: 0 3rem; }
 
+.padding-lr-1 {
+  padding: 0 1rem; }
+
 .position-top {
   align-self: start; }
 
@@ -35,6 +38,9 @@ html {
 
 .btn-box-width {
   width: 21.8rem; }
+
+.feature-h2-width {
+  width: 27.9rem; }
 
 body {
   font-family: "Red Hat Display", sans-serif;
@@ -167,3 +173,11 @@ main {
     display: flex; }
   .hero__profile__photo {
     height: 100%; }
+
+.feature {
+  width: 33.6rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
