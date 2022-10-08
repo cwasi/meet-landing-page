@@ -45,6 +45,12 @@ html {
   align-items: center;
   justify-content: space-between; }
 
+.object-position-l--1-9 {
+  object-position: -1.9rem 0; }
+
+.object-position-r-1-9 {
+  object-position: 1.9rem 0; }
+
 .text-center {
   text-align: center; }
 
@@ -181,7 +187,7 @@ main {
   justify-items: center; }
 
 .hero {
-  gap: 2rem;
+  width: 81.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between; }
