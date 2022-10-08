@@ -7,6 +7,27 @@
   padding: 0 1rem;
 }
 
+// margin
+.margin-b-6-9 {
+  margin-bottom: 6.9rem;
+}
+
+.margin-b-4 {
+  margin-bottom: 4rem;
+}
+
+.margin-b-5 {
+  margin-bottom: 5rem;
+}
+
+.margin-b-4-5 {
+  margin-bottom: 4.5rem;
+}
+
+.margin--1-5 {
+  margin-bottom: -1.5rem;
+}
+
 // positioning
 .position-top {
   align-self: start;
@@ -28,6 +49,9 @@
 .text-color-primary-light {
   color: $color-primary-light;
 }
+.text-color-secondary-light {
+  color: $color-secondary-light;
+}
 
 // Width
 
@@ -37,4 +61,8 @@
 
 .feature-h2-width {
   width: 27.9rem;
+}
+
+.z-index-5 {
+  z-index: 5;
 }

@@ -1,0 +1,32 @@
+.footer {
+  height: 20rem;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary, 0.9),
+      rgba($color-primary, 0.9)
+    ),
+    url(/src/assets/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   $color-primary
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__info-box {
+    width: 69.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    width: 21.9rem;
+  }
+
+  &__paragraph {
+    width: 21.9rem;
+  }
+}
