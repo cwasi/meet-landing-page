@@ -1,17 +1,17 @@
 .hero {
   width: 81.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+  @include flex-center-space-between;
 
   &__info {
     width: 33.8rem;
     height: 19rem;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-column-center-space-between;
+  }
+
+  &__btn-box {
+    @include flex-center-space-between;
   }
 
   &__profile__box {

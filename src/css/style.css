@@ -19,6 +19,9 @@ html {
 .padding-lr-1 {
   padding: 0 1rem; }
 
+.btn-padding {
+  padding: 1rem 1.8rem !important; }
+
 .margin-b-6-9 {
   margin-bottom: 6.9rem; }
 
@@ -39,11 +42,6 @@ html {
 
 .position-down {
   align-self: end; }
-
-.flex-center-space-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
 
 .object-position-l--1-9 {
   object-position: -1.9rem 0; }
@@ -110,10 +108,7 @@ body {
   background-color: #fafafa; }
 
 .logo__box {
-  height: 1.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  height: 1.8rem; }
 
 .logo__icon {
   height: 100%;
@@ -133,7 +128,6 @@ body {
     .btn__primary:hover {
       background-color: #71c0d4; }
   .btn__secondary {
-    padding: 1rem 1.8rem;
     background-color: #855fb1; }
     .btn__secondary:hover {
       background-color: #b18bdd; }
@@ -196,6 +190,10 @@ main {
     height: 19rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+  .hero__btn-box {
+    display: flex;
     align-items: center;
     justify-content: space-between; }
   .hero__profile__box {

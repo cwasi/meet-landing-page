@@ -7,9 +7,7 @@
 }
 
 .divider {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex-column-center;
 
   &__number {
     width: 3.5rem;

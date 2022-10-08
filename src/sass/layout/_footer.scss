@@ -9,17 +9,13 @@
     url(/src/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  //   $color-primary
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  @include flex-center;
 
   &__info-box {
     width: 69.3rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-center-space-between;
   }
 
   &__heading {

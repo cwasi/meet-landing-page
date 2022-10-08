@@ -7,6 +7,10 @@
   padding: 0 1rem;
 }
 
+.btn-padding {
+  padding: 1rem 1.8rem !important;
+}
+
 // margin
 .margin-b-6-9 {
   margin-bottom: 6.9rem;
@@ -36,16 +40,10 @@
   align-self: end;
 }
 
-.flex-center-space-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.object-position-l--1-9{
+.object-position-l--1-9 {
   object-position: -1.9rem 0;
 }
-.object-position-r-1-9{
+.object-position-r-1-9 {
   object-position: 1.9rem 0;
 }
 
