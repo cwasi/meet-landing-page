@@ -1,25 +1,84 @@
 .hero {
-  width: 81.4rem;
-
   @include flex-center-space-between;
 
+  @media only screen and (max-width: 120em) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 76.9em) {
+    @include flex-column-center-space-between;
+  }
+
   &__info {
-    width: 33.8rem;
+    width: 33.6rem;
     height: 19rem;
 
     @include flex-column-center-space-between;
+
+    @media only screen and (max-width: 48em) {
+      height: 23rem;
+    }
+
+    @media only screen and (max-width: 28.8em) {
+      width: 100%;
+      height: 23.1rem;
+    }
+  }
+
+  &__paragraph {
+    @media only screen and (max-width: 48em) {
+      padding: 0;
+      width: 28.5rem;
+    }
+    @media only screen and (max-width: 36.7em) {
+      width: 20rem;
+    }
   }
 
   &__btn-box {
     @include flex-center-space-between;
+
+    @media only screen and (max-width: 28.8em) {
+      height: 7.5rem;
+      @include flex-column-center-space-between;
+    }
   }
 
   &__profile__box {
     height: 100%;
     display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 76.9em) {
+      margin-bottom: 4.5rem;
+      width: 100%;
+    }
+    @media only screen and (max-width: 48em) {
+      justify-content: start;
+      overflow: hidden;
+    }
   }
 
   &__profile__photo {
-    height: 100%;
+    width: 100%;
+
+    display: flex;
+    height: 17rem;
+    object-fit: cover;
+    @media only screen and (max-width: 76.9em) {
+      object-position: 0 0;
+    }
+    @media only screen and (max-width: 48em) {
+      width: 110%;
+      height: 100%;
+
+      object-fit: cover;
+      object-position: -2.5rem 100%;
+    }
+    @media only screen and (max-width: 36.7em) {
+      object-position: -1.5rem 100%;
+    }
+    @media only screen and (max-width: 28.8em) {
+      object-position: -1rem 100%;
+    }
   }
 }

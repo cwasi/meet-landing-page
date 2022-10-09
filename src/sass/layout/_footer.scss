@@ -9,13 +9,25 @@
     url(/src/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   @include flex-center;
+
+  @media only screen and (max-width: 58em) {
+    padding: 15rem 0;
+  }
 
   &__info-box {
     width: 69.3rem;
 
     @include flex-center-space-between;
+
+    @media only screen and (max-width: 58em) {
+      width: 100%;
+      height: 18rem;
+      text-align: center;
+      @include flex-column-center-space-between;
+    }
   }
 
   &__heading {
@@ -24,5 +36,11 @@
 
   &__paragraph {
     width: 21.9rem;
+    @media only screen and (max-width: 58em) {
+      width: 35rem;
+    }
+    @media only screen and (max-width: 28.8em) {
+      width: 20rem;
+    }
   }
 }

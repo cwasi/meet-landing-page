@@ -64,10 +64,12 @@
   width: 21.8rem;
 }
 
-.feature-h2-width {
-  width: 27.9rem;
-}
-
 .z-index-5 {
   z-index: 5;
+}
+
+.hide {
+  @media only screen and (max-width: 76.9em) {
+    display: none !important;
+  }
 }

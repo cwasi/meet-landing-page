@@ -21,17 +21,23 @@
     <main>
       <section class="hero margin-b-6-9">
         <div class="hero__profile__box position-top">
-          <img
-            src="src/assets/desktop/image-hero-left.png"
-            alt="Profile photo of people"
-            class="hero__profile__photo object-position-l--1-9"
-          />
+          <picture>
+            <source
+              media="(max-width: 76.9em)"
+              srcset="src/assets/tablet/image-hero.png"
+            />
+            <img
+              src="src/assets/desktop/image-hero-left.png"
+              alt="Profile photo of people"
+              class="hero__profile__photo object-position-l--1-9"
+            />
+          </picture>
         </div>
         <div class="hero__info text-center">
           <h1 class="heading-1 heading-1--black text-center padding-lr-3">
             Group Chat for Everyone
           </h1>
-          <p class="paragraph paragraph--gray text-center">
+          <p class="hero__paragraph paragraph paragraph--gray text-center">
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
@@ -44,7 +50,7 @@
             <button class="btn btn__secondary btn-padding">What is it?</button>
           </div>
         </div>
-        <div class="hero__profile__box position-down">
+        <div class="hero__profile__box position-down hide">
           <img
             src="src/assets/desktop/image-hero-right.png"
             alt="Profile photo of people"
@@ -87,10 +93,10 @@
       </section>
       <section class="feature text-center margin-b-4-5">
         <p class="small-text">Built for modern use</p>
-        <h2 class="heading-2 heading-2--black feature-h2-width">
+        <h2 class="feature__heading heading-2 heading-2--black">
           Smarter meetings, all in one place
         </h2>
-        <p class="paragraph paragraph--gray padding-lr-1">
+        <p class="feature__paragraph paragraph paragraph--gray padding-lr-1">
           Send messages, share files, show your screen, and record your meetings
           — all in one workspace. Control who can join with invite-only team
           access, data encryption, and data export.

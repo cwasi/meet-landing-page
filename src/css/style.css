@@ -12,6 +12,15 @@ body {
 
 html {
   font-size: 110.5%; }
+  @media only screen and (max-width: 88.6em) {
+    html {
+      font-size: 98.5%; } }
+  @media only screen and (max-width: 76.9em) {
+    html {
+      font-size: 80.5%; } }
+  @media only screen and (max-width: 23.4em) {
+    html {
+      font-size: 87%; } }
 
 .padding-lr-3 {
   padding: 0 3rem; }
@@ -61,11 +70,12 @@ html {
 .btn-box-width {
   width: 21.8rem; }
 
-.feature-h2-width {
-  width: 27.9rem; }
-
 .z-index-5 {
   z-index: 5; }
+
+@media only screen and (max-width: 76.9em) {
+  .hide {
+    display: none !important; } }
 
 body {
   font-family: "Red Hat Display", sans-serif;
@@ -75,6 +85,10 @@ body {
 .heading-1 {
   font-size: 4rem;
   line-height: 4.5rem; }
+  @media only screen and (max-width: 28.8em) {
+    .heading-1 {
+      font-size: 2.5rem;
+      line-height: 2.7rem; } }
   .heading-1--black {
     color: #28283d; }
   .heading-1--white {
@@ -83,6 +97,10 @@ body {
 .heading-2 {
   font-size: 2.5rem;
   line-height: 2.7rem; }
+  @media only screen and (max-width: 28.8em) {
+    .heading-2 {
+      font-size: 2rem;
+      line-height: 2.6rem; } }
   .heading-2--black {
     color: #28283d; }
   .heading-2--white {
@@ -158,7 +176,27 @@ body {
   width: 69.4rem;
   display: grid;
   grid-template-columns: repeat(4, 15.9rem);
+  align-content: center;
   justify-content: space-between; }
+  @media only screen and (max-width: 76.9em) {
+    .gallery {
+      gap: 1rem; } }
+  @media only screen and (max-width: 58em) {
+    .gallery {
+      width: min-content;
+      justify-content: center;
+      grid-template-columns: repeat(4, 13.5rem); } }
+  @media only screen and (max-width: 48em) {
+    .gallery {
+      grid-template-columns: repeat(4, 10.3rem); } }
+  @media only screen and (max-width: 36.7em) {
+    .gallery {
+      grid-template-columns: repeat(2, 15.3rem);
+      gap: 2rem; } }
+  @media only screen and (max-width: 28.8em) {
+    .gallery {
+      grid-template-columns: repeat(2, 10.3rem);
+      gap: 1.5rem; } }
   .gallery__image-box {
     height: 100%; }
   .gallery__image {
@@ -181,26 +219,82 @@ main {
   justify-items: center; }
 
 .hero {
-  width: 81.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  @media only screen and (max-width: 120em) {
+    .hero {
+      width: 100%; } }
+  @media only screen and (max-width: 76.9em) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; } }
   .hero__info {
-    width: 33.8rem;
+    width: 33.6rem;
     height: 19rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between; }
+    @media only screen and (max-width: 48em) {
+      .hero__info {
+        height: 23rem; } }
+    @media only screen and (max-width: 28.8em) {
+      .hero__info {
+        width: 100%;
+        height: 23.1rem; } }
+  @media only screen and (max-width: 48em) {
+    .hero__paragraph {
+      padding: 0;
+      width: 28.5rem; } }
+  @media only screen and (max-width: 36.7em) {
+    .hero__paragraph {
+      width: 20rem; } }
   .hero__btn-box {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    @media only screen and (max-width: 28.8em) {
+      .hero__btn-box {
+        height: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; } }
   .hero__profile__box {
     height: 100%;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
+    @media only screen and (max-width: 76.9em) {
+      .hero__profile__box {
+        margin-bottom: 4.5rem;
+        width: 100%; } }
+    @media only screen and (max-width: 48em) {
+      .hero__profile__box {
+        justify-content: start;
+        overflow: hidden; } }
   .hero__profile__photo {
-    height: 100%; }
+    width: 100%;
+    display: flex;
+    height: 17rem;
+    object-fit: cover; }
+    @media only screen and (max-width: 76.9em) {
+      .hero__profile__photo {
+        object-position: 0 0; } }
+    @media only screen and (max-width: 48em) {
+      .hero__profile__photo {
+        width: 110%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -2.5rem 100%; } }
+    @media only screen and (max-width: 36.7em) {
+      .hero__profile__photo {
+        object-position: -1.5rem 100%; } }
+    @media only screen and (max-width: 28.8em) {
+      .hero__profile__photo {
+        object-position: -1rem 100%; } }
 
 .feature {
   width: 33.6rem;
@@ -209,6 +303,27 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
+  @media only screen and (max-width: 48em) {
+    .feature {
+      width: 40rem; } }
+  @media only screen and (max-width: 36.7em) {
+    .feature {
+      height: 17.8rem; } }
+  @media only screen and (max-width: 28.8em) {
+    .feature {
+      width: 100%; } }
+  .feature__heading {
+    width: 27.9rem; }
+    @media only screen and (max-width: 28.8em) {
+      .feature__heading {
+        padding: 0 2rem;
+        width: 100%; } }
+  @media only screen and (max-width: 76.9em) {
+    .feature__paragraph {
+      padding: 0; } }
+  @media only screen and (max-width: 36.7em) {
+    .feature__paragraph {
+      width: 22rem; } }
 
 .footer {
   height: 20rem;
@@ -216,15 +331,34 @@ main {
   background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url(/src/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 58em) {
+    .footer {
+      padding: 15rem 0; } }
   .footer__info-box {
     width: 69.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    @media only screen and (max-width: 58em) {
+      .footer__info-box {
+        width: 100%;
+        height: 18rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; } }
   .footer__heading {
     width: 21.9rem; }
   .footer__paragraph {
     width: 21.9rem; }
+    @media only screen and (max-width: 58em) {
+      .footer__paragraph {
+        width: 35rem; } }
+    @media only screen and (max-width: 28.8em) {
+      .footer__paragraph {
+        width: 20rem; } }
