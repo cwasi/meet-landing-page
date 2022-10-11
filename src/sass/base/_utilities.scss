@@ -1,10 +1,16 @@
 // padding
 .padding-lr-3 {
   padding: 0 3rem;
+  @media only screen and (max-width: 18.8em) {
+    padding: 0;
+  }
 }
 
 .padding-lr-1 {
   padding: 0 1rem;
+  @media only screen and (max-width: 18.8em) {
+    padding: 0;
+  }
 }
 
 .btn-padding {
@@ -14,6 +20,10 @@
 // margin
 .margin-b-6-9 {
   margin-bottom: 6.9rem;
+
+  @media only screen and (max-width: 28.8em) {
+    margin-bottom: 4rem;
+  }
 }
 
 .margin-b-4 {
@@ -25,7 +35,7 @@
 }
 
 .margin-b-4-5 {
-  margin-bottom: 4.5rem;
+  margin-bottom: 4rem;
 }
 
 .margin--1-5 {
@@ -62,6 +72,9 @@
 
 .btn-box-width {
   width: 21.8rem;
+  @media only screen and (max-width: 28.8em) {
+    width: max-content;
+  }
 }
 
 .z-index-5 {
@@ -69,7 +82,7 @@
 }
 
 .hide {
-  @media only screen and (max-width: 76.9em) {
+  @media only screen and (max-width: 62.5em) {
     display: none !important;
   }
 }

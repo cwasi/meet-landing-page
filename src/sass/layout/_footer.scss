@@ -14,7 +14,7 @@
   @include flex-center;
 
   @media only screen and (max-width: 58em) {
-    padding: 15rem 0;
+    height: 26.6rem;
   }
 
   &__info-box {
@@ -22,25 +22,27 @@
 
     @include flex-center-space-between;
 
-    @media only screen and (max-width: 58em) {
+    @media only screen and (max-width: 58.1em) {
       width: 100%;
-      height: 18rem;
+      height: 16.8rem;
       text-align: center;
+
       @include flex-column-center-space-between;
     }
   }
 
   &__heading {
     width: 21.9rem;
+    @media only screen and (max-width: 18.8em) {
+      width: 100%;
+    }
   }
 
   &__paragraph {
     width: 21.9rem;
-    @media only screen and (max-width: 58em) {
-      width: 35rem;
-    }
-    @media only screen and (max-width: 28.8em) {
-      width: 20rem;
+
+    @media only screen and (max-width: 18.8em) {
+      width: 100%;
     }
   }
 }

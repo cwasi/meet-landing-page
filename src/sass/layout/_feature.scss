@@ -1,35 +1,40 @@
 .feature {
   width: 33.6rem;
   height: 15rem;
-  @media only screen and (max-width: 48em) {
-    width: 40rem;
-  }
-
-  @media only screen and (max-width: 36.7em) {
-    height: 17.8rem;
-  }
 
   @include flex-column-center-space-between;
 
-  @media only screen and (max-width: 28.8em) {
-    width: 100%;
+  @media only screen and (max-width: 58.1em) {
+    width: min-content;
+  }
+
+  @media only screen and (max-width: 23.5em) {
+    height: 17.4rem;
+    width: 20.4rem;
   }
 
   &__heading {
     width: 27.9rem;
 
-    @media only screen and (max-width: 28.8em) {
-      padding: 0 2rem;
-      width: 100%;
+    @media only screen and (max-width: 23.5em) {
+      width: 20.4rem;
     }
   }
 
   &__paragraph {
-    @media only screen and (max-width: 76.9em) {
-      padding: 0;
+    @media only screen and (max-width: 58.1em) {
+      width: 40rem;
     }
-    @media only screen and (max-width: 36.7em) {
-      width: 22rem;
+
+    @media only screen and (max-width: 36.5em) {
+      width: 30rem;
+    }
+    @media only screen and (max-width: 23.5em) {
+      width: 20.4rem;
+    }
+
+    @media only screen and (max-width: 18.8em) {
+      width: 100%;
     }
   }
 }

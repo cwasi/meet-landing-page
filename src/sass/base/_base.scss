@@ -15,14 +15,10 @@ body {
 
 html {
   font-size: 110.5%;
-  @media only screen and (max-width: 88.6em) {
-    font-size: 98.5%;
+  @media only screen and (max-width: 87.7em) {
+    font-size: 100%;
   }
-  @media only screen and (max-width: 76.9em) {
-    font-size: 80.5%;
-  }
-
-  @media only screen and (max-width: 23.4em) {
-    font-size: 87%;
+  @media only screen and (max-width: 76em) {
+    font-size: 80%;
   }
 }
