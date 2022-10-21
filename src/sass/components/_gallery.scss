@@ -10,7 +10,7 @@
     width: max-content;
     grid-template-columns: repeat(4, 13.9rem);
     justify-content: start;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   @media only screen and (max-width: 48em) {
     grid-template-columns: repeat(4, 12rem);
@@ -21,12 +21,15 @@
   }
 
   @media only screen and (max-width: 36.5em) {
-    grid-template-columns: repeat(2, 15.25rem);
+    width: 100%;
+    padding: 0 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
   }
 
   @media only screen and (max-width: 26.9em) {
-    grid-template-columns: repeat(2, 9.4rem);
-    gap: 1.3rem;
+    gap: 2rem;
   }
 
   &__image-box {
