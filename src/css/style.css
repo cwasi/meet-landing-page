@@ -58,6 +58,12 @@ html {
 .margin--1-5 {
   margin-bottom: -1.5rem; }
 
+.margin-1-5 {
+  margin-bottom: 1.5rem; }
+
+.margin-2 {
+  margin-bottom: 2rem; }
+
 .position-top {
   align-self: start; }
 
@@ -208,7 +214,7 @@ body {
   @media only screen and (max-width: 36.5em) {
     .gallery {
       width: 100%;
-      padding: 0 2rem;
+      padding: 0 1.5rem;
       grid-template-columns: repeat(2, 1fr);
       align-content: center;
       justify-content: center; } }
@@ -247,7 +253,8 @@ main {
     .hero {
       display: flex;
       flex-direction: column;
-      align-items: center; } }
+      align-items: center;
+      gap: 4rem; } }
   .hero__info {
     width: 33.6rem;
     height: 19rem;
@@ -260,8 +267,7 @@ main {
         margin: 0 5rem; } }
     @media only screen and (max-width: 62.5em) {
       .hero__info {
-        width: min-content;
-        margin-top: 4rem; } }
+        width: 100%; } }
     @media only screen and (max-width: 28.8em) {
       .hero__info {
         height: 22rem; } }
@@ -327,18 +333,13 @@ main {
 
 .feature {
   width: 33.6rem;
-  height: 15rem;
+  height: max-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between; }
+  align-items: center; }
   @media only screen and (max-width: 58.1em) {
     .feature {
-      width: min-content; } }
-  @media only screen and (max-width: 23.5em) {
-    .feature {
-      height: 17.4rem;
-      width: 20.4rem; } }
+      width: 100%; } }
   .feature__heading {
     width: 27.9rem; }
     @media only screen and (max-width: 23.5em) {
@@ -349,10 +350,11 @@ main {
       width: 40rem; } }
   @media only screen and (max-width: 36.5em) {
     .feature__paragraph {
-      width: 30rem; } }
+      padding: 0 1.5rem;
+      width: 100%; } }
   @media only screen and (max-width: 23.5em) {
     .feature__paragraph {
-      width: 20.4rem; } }
+      width: 100%; } }
   @media only screen and (max-width: 18.8em) {
     .feature__paragraph {
       width: 100%; } }
